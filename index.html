@@ -27,23 +27,22 @@
         <a class="nav-link" href="#">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" "navbar-light" href="#">Support</a>
+        <a class="nav-link" href="#">Support</a>
       </li>
       </ul>
     </div>
   </div>
-
 
 <!-- logos -->
 <div class="container">
 
   <!-- logos -->
   <div class="container my-container">
-    <column="col-2">
+    <column="col-3">
     <img src="design-assets/logo--rock-n-stroll.png" width="300">
 
-<div style="clear: left;"/>
-    <img src="design-assets/logo--peppers-black-sm.png" width="100 float="right">
+<div style="clear: left;">
+    <img src="design-assets/logo--peppers-black-sm.png" width="100" float="right">
     <div style="float:left;">by</div>
   </div>
 </div>
@@ -73,21 +72,87 @@
     </div>
   </div>
 </div>
+</div>
 
   <!--Instagram-->
-<div class="container my-container">
+<div class="container-fluid p-0">
   <div class="row">
 
-    <div class="col-6">
-    <img src="design-assets/instagram-1.jpg" width="400">
+    <div class="col-6 relative pr-1">
+    <img src="design-assets/instagram-1.jpg" width="100%">
+    <div class="absolute">
+      <img src="design-assets/instagram-logo.png" width="35%">
     </div>
+  </div>
 
-    <div class="col-0 my-column">
-      <img src="design-assets/instagram-2.jpg" width="400" >
+    <div class="col-6 relative pl-1">
+      <img src="design-assets/instagram-2.jpg" width="100%">
+      <div class="absolute">
+        <img src="design-assets/instagram-logo.png" width="35%">
+      </div>
     </div>
 
   </div>
 </div>
+
+<!-- mobile
+<div id="mobile-product-container">
+  mobile-products -->
+
+  var shade= {
+    img: "design-assets/product-green.jpg",
+    subtitle: "Rock-N-Stroll",
+    color: "Red",
+    Price: "$199",
+  }
+
+  var shade= {
+    img:"design-assets/product-blue.jpg",
+    subtitle: "Rock-N-Stroll",
+    color: "Red",
+    Price: "$199",
+  }
+
+  var shade= {
+    img:"design-assets/product-black.jpg",
+    subtitle: "Rock-N-Stroll",
+    color: "Red",
+    Price: "$199",
+  }
+
+  var shades= [redshade, greenshade, blueshade, blackshade,]
+
+
+  function mobileProducts(product) {
+  return `
+    <div class="col peppers-product text-center">
+      <img class="img-fluid" src="${product.img}" alt="Peppers Rock-N-Stroll">
+      <p class="product-title">${product.subtitle}</p>
+      <h3>${product.color}</h3>
+      <div class="circles">
+        <div class="circle red" data-index="0"></div>
+        <div class="circle green" data-index="1"></div>
+        <div class="circle blue" data-index="2"></div>
+        <div class="circle black" data-index="3"></div>
+      </div>
+      <p class="product-price">$${product.price}</p>
+      <div class="product-cta-container">
+        <a href="#" class="btn btn-danger btn-lg">Add to Cart</a>
+      </div>
+    </div>
+  `;
+}
+
+$(document).ready(function() {
+  $("#mobile-products").html(mobileProduct (shades[0]));
+
+  $(#mobile-products").on(click, '.circle', function() {
+    var index=$(this).data('index');
+    console.log(index);
+  });
+
+});
+
 
 <!-- Find Your Style -->
 
@@ -253,5 +318,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <script src="script.js"></script>
+
+</body>
 </html>

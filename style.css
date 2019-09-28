@@ -50,3 +50,14 @@ html,body {
  .nav-link {
      color: white;
  }
+
+ .absolute {
+   position: absolute;
+   bottom:10px;
+   left: 10px;
+}
+
+.relative {
+  position: relative;
+  padding: 0px;
+}
