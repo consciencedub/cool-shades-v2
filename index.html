@@ -33,6 +33,7 @@
     </div>
   </div>
 
+
 <!-- logos -->
 <div class="container">
 
@@ -54,7 +55,6 @@
 </div>
 </div>
 
-
   <!-- hands free -->
 <div class="container my-container">
 
@@ -75,7 +75,7 @@
 </div>
 
   <!--Instagram-->
-<div class="container-fluid p-0">
+<div class="container-fluid p-0 my-container">
   <div class="row">
 
     <div class="col-6 relative pr-1">
@@ -99,35 +99,10 @@
 <div id="mobile-product-container">
   mobile-products -->
 
-  var shade= {
-    img: "design-assets/product-green.jpg",
-    subtitle: "Rock-N-Stroll",
-    color: "Red",
-    Price: "$199",
-  }
 
-  var shade= {
-    img:"design-assets/product-blue.jpg",
-    subtitle: "Rock-N-Stroll",
-    color: "Red",
-    Price: "$199",
-  }
-
-  var shade= {
-    img:"design-assets/product-black.jpg",
-    subtitle: "Rock-N-Stroll",
-    color: "Red",
-    Price: "$199",
-  }
-
-  var shades= [redshade, greenshade, blueshade, blackshade,]
-
-
-  function mobileProducts(product) {
-  return `
-    <div class="col peppers-product text-center">
+    <div class="col peppers-product text-center my-container">
       <img class="img-fluid" src="${product.img}" alt="Peppers Rock-N-Stroll">
-      <p class="product-title">${product.subtitle}</p>
+      <p class="product-title" "<p>${product.subtitle}</p>
       <h3>${product.color}</h3>
       <div class="circles">
         <div class="circle red" data-index="0"></div>
@@ -135,23 +110,12 @@
         <div class="circle blue" data-index="2"></div>
         <div class="circle black" data-index="3"></div>
       </div>
-      <p class="product-price">$${product.price}</p>
+      <p class="product-price">${product.price}</p>
       <div class="product-cta-container">
         <a href="#" class="btn btn-danger btn-lg">Add to Cart</a>
       </div>
     </div>
-  `;
-}
 
-$(document).ready(function() {
-  $("#mobile-products").html(mobileProduct (shades[0]));
-
-  $(#mobile-products").on(click, '.circle', function() {
-    var index=$(this).data('index');
-    console.log(index);
-  });
-
-});
 
 
 <!-- Find Your Style -->
