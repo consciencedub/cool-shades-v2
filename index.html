@@ -17,37 +17,37 @@
   <div class="jumbotron" style="background-image: url(design-assets/hero.jpg); background-size: cover";>
 
 <!-- Navigation -->
-  <div class="container my-container">
-    <div class="row nav-float">
-      <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link active " href="#">Shop</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Support</a>
-      </li>
-      </ul>
+
+<nav class="navbar navbar-expand-sm nav-justify">
+
+  <!-- Brand/logo -->
+  <div>
+    <img src="design-assets/logo--rock-n-stroll.png" width="300">
+    <div style="clear: left;">
+    <img src="design-assets/logo--peppers-black-sm.png" width="100" style="float: right">
+    <div style="float:right;">by</div>
     </div>
   </div>
 
+  <!-- Links -->
 
-<!-- logos -->
+  <ul class="navbar-nav nav-justify">
+    <li class="nav-item">
+      <a class="nav-link my-link" href="#">Shop</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link my-link" href="#">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link my-link" href="#">Support</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Audio Sunglasses -->
 <div class="container">
 
-  <!-- logos -->
-  <div class="container my-container">
-    <column="col-3">
-    <img src="design-assets/logo--rock-n-stroll.png" width="300">
-
-<div style="clear: left;">
-    <img src="design-assets/logo--peppers-black-sm.png" width="100" float="right">
-    <div style="float:left;">by</div>
-  </div>
-</div>
-  <div class="container my-container">
+  <div class="container audio-sunglasses">
     <h1 class="text-white"><em>Audio Sunglasses</em></h1>
     <p class="lead">Hit the slopes or ride your bike without earbuds</p>
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
@@ -60,12 +60,12 @@
 
 <div class="container my-container">
   <div class="row">
-    <div class="col-6">
+    <div class="col-sm-6">
       <h1 class="display-8"><em>Hands Free</em></h1>
       <p>Play music, answer calls & turn by turn navigation streamed through your shades</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Explore Features</a>
     </div>
-    <div class="col-6">
+    <div class="col-sm-6">
       <img src="design-assets/cta-sunglasses.jpg" width="400">
     </div>
     <div class="col-sm">
@@ -78,14 +78,14 @@
 <div class="container-fluid p-0 my-container">
   <div class="row">
 
-    <div class="col-6 relative pr-1">
+    <div class="col-sm-6 relative pr-1">
     <img src="design-assets/instagram-1.jpg" width="100%">
     <div class="absolute">
       <img src="design-assets/instagram-logo.png" width="35%">
     </div>
   </div>
 
-    <div class="col-6 relative pl-1">
+    <div class="col-sm-6 relative pl-1">
       <img src="design-assets/instagram-2.jpg" width="100%">
       <div class="absolute">
         <img src="design-assets/instagram-logo.png" width="35%">
@@ -95,33 +95,11 @@
   </div>
 </div>
 
-<!-- mobile
-<div id="mobile-product-container">
 
-<div id="mobile-products" class="bg-light">
+  <!-- mobile-products -->
+<div class="container-fluid">
 
-<div class="col peppers-product text-center my-container">
-  <img class="img-fluid" src="${product.img}" alt="Peppers Rock-N-Stroll">
-  <p class="product-title" "<p>${product.subtitle}</p>
-  <h3>${product.color}</h3>
-  <div class="circles">
-    <div class="circle red" data-index="0"></div>
-    <div class="circle green" data-index="1"></div>
-    <div class="circle blue" data-index="2"></div>
-    <div class="circle black" data-index="3"></div>
-  </div>
-  <p class="product-price">${product.price}</p>
-  <div class="product-cta-container">
-    <a href="#" class="btn btn-danger btn-lg">Add to Cart</a>
-  </div>
-</div>
-
-
-
-</div>
-  mobile-products -->
-
-  <div id="mobile-products" class="bg-light">
+  <div id="mobile-products" class="bg-light mobile">
 
         <div class="col peppers-product text-center">
           <img class="img-fluid" src="[IMG]" alt="Peppers Rock-N-Stroll Red">
@@ -132,8 +110,8 @@
             <a href="#" class="btn btn-danger btn-lg">Add to Cart</a>
           </div>
         </div>
-
-  </div>
+</div>
+</div>
 
 <!-- Find Your Style -->
 
@@ -191,56 +169,16 @@
 </div>
 </div>
 
-  <!-- <div class="row">
-
-    <div class="col-sm">
-        <img src="design-assets/product-red.jpg" width="200px">
-        <small>Rock-N-Stroll</small>
-        <p><em>RED</em></p>
-        <p>$199.99</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Add to Cart</a>
-      </div>
-
-    <div class="col-sm">
-      <img src="design-assets/product-green.jpg" width="200px">
-        <small>Rock-N-Stroll</small>
-        <p><em>GREEN</em></p>
-        <p>$199.99</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Add to Cart</a>
-      </div>
-
-
-    <div class="col-sm">
-        <img src="design-assets/product-blue.jpg" width="200px">
-        <small>Rock-N-Stroll</small>
-        <p><em>BLUE</em></p>
-        <p>$199.99</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Add to Cart</a>
-      </div>
-
-
-  <div class="col-sm">
-        <img src="design-assets/product-black.jpg" width="200px">
-        <small>Rock-N-Stroll</small>
-        <h6><em>BLACK</em></h6>
-        <p>$199.99</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Add to Cart</a>
-      </div>
-
-  </div>
-</div>
--->
-
 <!--Bone Conduction-->
 
 <div class="container my-container">
   <div class="row">
-    <div class="col-6">
+    <div class="col-sm-6">
       <h1 class="display-8"><em>Bone Conduction Audio</em></h1>
-      <p>Sounds are converted to vibrations and passed directly to the auditory nerve bones. <p>
-      <a href="#"> Learn More</p><a>
+      <p>Sounds are converted to vibrations and passed directly to the auditory nerve bones. <p><a href="#">Learn More</a>
+
     </div>
-    <div class="col-6">
+    <div class="col-sm-6">
       <img src="design-assets/bone-conduction.jpg" width="400">
     </div>
   </div>
@@ -249,92 +187,161 @@
 
 <!-- Features -->
 
-      <div class="container-fluid my-container make-fit" style="background:transparent url('design-assets/features-background.jpg') no-repeat center center /cover; display=inline-block">
 
-        <div class="row">
-
-          <div class="col-12">
-
-            <h1><em>Features</em></h1>
-
-            <h2><em>Weight</em>: 50g</h2>
-
-            <h2><em>Lens</em>: UV400 / Polarized FDA Certified</h2>
-
-            <h2><em>Bluetooth</em>: Bluetooth 5.0 A2DP profile 1.3 / HFP profile 1.7 / HSP profile 1.2 (Wireless Range: 30 feet / 10 meters)</h2>
-
-            <h2><em>Compatibility</em>: Any device that has bluetooth built-in</h2>
-
-            <h2><em>Battery</em>: 115mAh Lithium Polymer</h2>
-
-            <h2><em>Stand-by time</em>: 100 hours</h2>
-
-            <h2><em>Play time</em>: 4 hours (Set to volume level 10 at ios 12)</h2>
-
-            <h2><em>Charging time</em>: Less than 1 hour</h2>
-
-            <h2><em>Weight</em>: 50g</h2>
-          </div>
-      </div>
-    </div>
-
-<footer>
-<div class="container-fluid my-container my-box footer">
+<div class="container-fluid my-features image-fluid">
 
   <div class="container">
 
-    <Div class="row">
-    <Div class="col-4 nav-footer nav-link">
-      <ul>
-        <li><a href="#Shop">Shop</a></li>
-      <li><a href="#Features">Features</a></li>
-      <li><a href="#Support">Support</a></li>
-    </ul>
-  </div>
-  </div>
-
-  <Div class="col-4 nav-link">
-    <h3>Warranty</h3>
-    <h3>Returns</h3>
-</div>
-
-
-<Div class="col-4">
-    <column="col-3">
-    <img src="design-assets/logo--rock-n-stroll.png" width="300">
-  </div>
-
-<div style="clear: left;">
-    <img src="design-assets/logo--peppers-white-lg.png" width="100" float="right">
-    <div style="float:left;">by</div>
-  </div>
-
-<div class="container">
-<div class="row">
-  <div class="col-12">
-  <img src="design-assets/logo--peppers-white-lg.png" width="250px">
-  </div>
-</div>
-</div>
-
-<div class="container">
     <div class="row">
-    <div class="col-12">
+      <div class="col-sm-12">
+        <h1 class="display-8 "><em>Features</em></h1>
+      </div>
+    </div>
 
-      <ul>
-  <li><a href="#product-sales">Product Sales</a></li>
-  <li><a href="#TOS">Terms of Service</a></li>
-  <li><a href="#PP">Privacy Policy</a></li>
+    <div class="row">
+      <div class="col-sm-12">
+        <hr class="my-hr">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="features-list">
+
+          <ul class="list-group">
+  <li class="list-group-item my-list-group"><em><strong>Weight</strong></em> :50g</li>
+  <li class="list-group-item my-list-group"><strong>Lens</strong></em> : UV400 / Polarized FDA Certified</li>
+  <li class="list-group-item my-list-group"><em><strong>Bluetooth</strong></em> : Bluetooth 5.0 A2DP profile 1.3 / HFP profile 1.7 / HSP profile 1.2 (Wireless Range: 30 feet / 10 meters)</li>
+  <li class="list-group-item my-list-group"><em><strong>Compatibility</strong></em> : Any device that has bluetooth built-in</li>
+  <li class="list-group-item my-list-group"><em><strong>Battery</strong></em> : 115mAh Lithium Polymer</li>
+  <li class="list-group-item my-list-group"><em><strong>Stand-by time</strong></em> : 100 hours</li>
+  <li class="list-group-item my-list-group"><em><strong>Play time</strong></em> : 4 hours (Set to volume level 10 at ios 12)</li>
+  <li class="list-group-item my-list-group"><em><strong>Charging time</strong></em> : Less than 1 hour</li>
+  <li class="list-group-item my-list-group"><em><strong>Weight</strong></em> : 50g</li>
 </ul>
-</div>
-</div>
+
+      </div>
+    </div>
+  </div>
 </div>
 
-    </div
+<!--footernew-->
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer black pt-4 footer-new">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!"><strong>Shop</strong></a>
+          </li>
+          <li>
+            <a href="#!"><strong>Features</strong></a>
+          </li>
+          <li>
+            <a href="#!"><strong>Support</strong></a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+				<ul class="list-unstyled">
+          <li>
+            <a href="#!">Warranty</a>
+          </li>
+          <li>
+            <a href="#!">Returns</a>
+          </li>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+
+
+      <!-- Grid column -->
+      <div class="col-md-4 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <div>
+          <img src="design-assets/logo--rock-n-stroll.png" width="293">
+          <div style="clear: left;">
+          <img src="design-assets/logo--peppers-white-lg.png" width="100" style="float: right">
+          <div style="float:right;color:white">by</div>
+          </div>
+        </div>
+
+        <div class="row ogler-4 center-text">
+         <a href="*" style="color:white">Product Sales</a>
+         <a href="*" style="color:white">Terms of Service</a>
+         <a href="*" style="color:white">Privacy Policy</a>
+       </div>
+
+  <!-- Copyright -->
+  <div class="container footer-new center">
+    <div class="row">
+  <div class="col">
+    <img src="design-assets/logo--peppers-white-lg.png" width="150px">
+</div>
+
+<!--list navigation-->
+
+<div class="row ogler-4">
+   <div class= "col-sm-12 center-text">
+     <ul class="footer-links">
+       <li><a href="*" style="color:white">Product Sales</a></li>
+       <li><a href="*" style="color:white">Terms of Service</a></li>
+       <li><a href="*" style="color:white">Privacy Policy</a></li>
+     </ul>
+ </div>
+</div>
+
+  </nav>
+</div>
+
   </div>
+</div>
+  <!-- Copyright -->
 
 </footer>
 
+
+      <!--list navigation-->
+
+      <div class="row ogler-4">
+         <div class= "col-sm-12 center-text">
+           <ul class="footer-links">
+             <li><a href="*" style="color:white">Product Sales</a></li>
+             <li><a href="*" style="color:white">Terms of Service</a></li>
+             <li><a href="*" style="color:white">Privacy Policy</a></li>
+           </ul>
+       </div>
+      </div>
+
+
+ </div>
 
 
 

@@ -25,6 +25,14 @@ html,body {
       box-sizing: border-box;
 }
 
+.my-link {
+    color: white;
+}
+
+.my-link:hover {
+    color: white;
+}
+
 .my-row {
   border:2px solid blue;
 }
@@ -42,6 +50,7 @@ html,body {
      background-color: BLACK;
      height: 500px;
      width: auto;
+     padding-top: 100px;
 }
 
 .center-block {
@@ -51,7 +60,7 @@ html,body {
  }
 
  .nav-link {
-     color: white;
+     text-decoration-color: white;
  }
 
  .absolute {
@@ -96,7 +105,6 @@ html,body {
 
 nav-footer {
   color: white;
-  position: absolute;
   left: 0px;
   width: 200px;
 }
@@ -109,11 +117,8 @@ ul {
   background-color: #none;
 }
 
-li {
-  float: left;
-}
 
-li a {
+/* li a {
   display: block;
   color: white;
   text-align: center;
@@ -121,10 +126,145 @@ li a {
   text-decoration: none;
 }
 
- li a:hover {
+ /*li a {
   color: white;
 }
 
-.footer{
-  margin-top: 100px;
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+
+.my-features {
+  background-image: url('design-assets/features-background.jpg');
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  padding-bottom: 50px;
+
+}
+
+.features-list {
+  margin-bottom: .25em;
+}
+
+.my-list-group {
+  background-color:transparent;
+  border: none;
+  padding: 1px;
+}
+
+.my-hr {
+    border-top: 4px solid white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .audio-sunglasses {
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+
+  .my-footertwo {
+    background-color: purple;
+  }
+
+  .nav-justify {
+  justify-content: space-between;
+  text-align: right;
+padding-left: 100px;
+  }
+
+  .footer-new {
+    justify-content: center;
+    padding: 125px;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+/* Footer */
+
+.ogler-1 {
+  background: #000000;
+  color: #ffffff;
+  height: 200px;
+  padding-left: 50px;
+
+}
+
+.ogler-2 {
+  background: #000000;
+  color: #ffffff;
+  height: 200px;
+
+}
+
+.ogler-3 {
+  background: #000000;
+  color: #ffffff;
+  height: 200px;
+
+
+}
+
+.ogler-4 {
+  background: #000000;
+  color: #ffffff;
+  height: 100px;
+  padding: 20px;
+
+}
+
+
+.center-footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.center-text{
+  padding-right: 10px;
+  text-align: center;
+}
+
+.footer-links {
+  display:inline-block;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  padding: 0 0.3rem;
+
+}
+
+li {
+  float: left;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  color: #111111;
+  text-decoration: none;
 }
