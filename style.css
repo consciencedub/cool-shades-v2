@@ -25,6 +25,39 @@ html,body {
       box-sizing: border-box;
 }
 
+/* Header Logo*/
+
+.jumbotron {
+  padding: 2rem;
+}
+
+.nav-header {
+  float: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.my-header-position-1 {
+  position: absolute;
+  left: 3rem;
+  top: 2rem;
+}
+
+.my-header-position-2 {
+  position: absolute;
+  top: 3.7rem;
+  left: 220px;
+}
+
+/*find Your Style*/
+
+.fys-headline {
+  margin-bottom: .5rem;
+  background-color: #f8f9fa;
+}
+
 .my-link {
     color: white;
 }
@@ -66,7 +99,13 @@ html,body {
  .absolute {
    position: absolute;
    bottom:10px;
-   left: 10px;
+   left: 70px;
+}
+
+.absolute-2 {
+  position: absolute;
+  bottom:10px;
+  left: 100px;
 }
 
 .relative {
@@ -138,12 +177,11 @@ a:link {
 
 .my-features {
   background-image: url('design-assets/features-background.jpg');
-  height: 900px;
+  background-repeat: round;
   background-size: cover;
-  background-repeat: no-repeat;
   padding-top: 25px;
   padding-bottom: 50px;
-
+  height: 900px;
 }
 
 .features-list {
@@ -162,24 +200,9 @@ a:link {
     margin-bottom: 50px;
   }
 
-  .audio-sunglasses {
+.audio-sunglasses {
     margin-top: 50px;
     margin-bottom: 200px;
-  }
-
-  .my-footertwo {
-    background-color: purple;
-  }
-
-  .nav-justify {
-  justify-content: space-between;
-  text-align: right;
-padding-left: 100px;
-  }
-
-  .footer-new {
-    justify-content: center;
-    padding: 125px;
   }
 
   .center {
@@ -202,69 +225,30 @@ media (min-width: 768px) {
 
 /* Footer */
 
-.ogler-1 {
-  background: #000000;
-  color: #ffffff;
-  height: 200px;
-  padding-left: 50px;
+.fluid-footer {
+  background-color: #000000;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.my-footer-logo-lockup {
+  color: #666666;
+  padding-top: 5px;
+  position: relative;
 
 }
 
-.ogler-2 {
-  background: #000000;
-  color: #ffffff;
-  height: 200px;
-
+.my-footer-position-1 {
+  position: absolute;
+  right: 50px;
 }
 
-.ogler-3 {
-  background: #000000;
-  color: #ffffff;
-  height: 200px;
-
-
+.my-footer-position-2 {
+  position: absolute;
+  top: 30px;
+  right: 65px;
 }
 
-.ogler-4 {
-  background: #000000;
-  color: #ffffff;
-  height: 100px;
-  padding: 20px;
-
-}
-
-
-.center-footer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- margin-top: auto;
-  margin-bottom: auto;
-  text-align: center;
-}
-
-.center-text{
-  padding-right: 10px;
-  text-align: center;
-}
-
-.footer-links {
-  display:inline-block;
-  margin: 0 auto;
-  text-align: center;
-  list-style: none;
-  padding: 0 0.3rem;
-
-}
-
-li {
-  float: left;
-  padding: 16px;
-  text-decoration: none;
-}
-
-
-li a:hover {
-  color: #111111;
-  text-decoration: none;
+.my-footer-nav {
+  list-style-type: none;
 }
