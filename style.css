@@ -5,6 +5,10 @@
   font-size: 20px:
 }
 
+.btn-primary { background-color: red; }
+
+.btn-primary:hover { background-color: #8B0000; }
+
 html,body {
   height: 100%; margin: 0px; padding: 0px; }
 
@@ -15,11 +19,51 @@ html,body {
   border-radius: 0; }
 
 .my-container {
-  /* *border:2px solid RED;*/
   margin-bottom: 50px;
   -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
       box-sizing: border-box;
+}
+
+/* Header Logo*/
+
+.jumbotron {
+  padding: 2rem;
+}
+
+.nav-header {
+  float: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.my-header-position-1 {
+  position: absolute;
+  left: 3rem;
+  top: 2rem;
+}
+
+.my-header-position-2 {
+  position: absolute;
+  top: 3.7rem;
+  left: 220px;
+}
+
+/*find Your Style*/
+
+.fys-headline {
+  margin-bottom: .5rem;
+  background-color: #f8f9fa;
+}
+
+.my-link {
+    color: white;
+}
+
+.my-link:hover {
+    color: white;
 }
 
 .my-row {
@@ -39,6 +83,7 @@ html,body {
      background-color: BLACK;
      height: 500px;
      width: auto;
+     padding-top: 100px;
 }
 
 .center-block {
@@ -48,5 +93,162 @@ html,body {
  }
 
  .nav-link {
-     color: white;
+     text-decoration-color: white;
  }
+
+ .absolute {
+   position: absolute;
+   bottom:10px;
+   left: 70px;
+}
+
+.absolute-2 {
+  position: absolute;
+  bottom:10px;
+  left: 100px;
+}
+
+.relative {
+  position: relative;
+  padding: 0px;
+}
+
+.circle {
+  border-radius: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.black {
+  background: black;
+}
+
+.make-fit
+{
+  background-color:#666;
+  display:inline-block;
+}
+
+nav-footer {
+  color: white;
+  left: 0px;
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #none;
+}
+
+
+/* li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ /*li a {
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+
+.my-features {
+  background-image: url('design-assets/features-background.jpg');
+  background-repeat: round;
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  height: 900px;
+}
+
+.features-list {
+  margin-bottom: .25em;
+}
+
+.my-list-group {
+  background-color:transparent;
+  border: none;
+  padding: 1px;
+}
+
+.my-hr {
+    border-top: 4px solid white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+.audio-sunglasses {
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+/* Footer */
+
+.fluid-footer {
+  background-color: #000000;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.my-footer-logo-lockup {
+  color: #666666;
+  padding-top: 5px;
+  position: relative;
+
+}
+
+.my-footer-position-1 {
+  position: absolute;
+  right: 50px;
+}
+
+.my-footer-position-2 {
+  position: absolute;
+  top: 30px;
+  right: 65px;
+}
+
+.my-footer-nav {
+  list-style-type: none;
+}
