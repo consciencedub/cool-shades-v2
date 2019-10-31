@@ -58,13 +58,12 @@ html,body {
   background-color: #f8f9fa;
 }
 
-.fys-headline-2 {
-  border: 5rem;
-  border-color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #f8f9fa;
-
+.card-styling {
+border: 10px;
+border-color: #ffffff;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #f8f9fa;
 }
 
 .my-link {
