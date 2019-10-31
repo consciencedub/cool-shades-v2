@@ -58,6 +58,15 @@ html,body {
   background-color: #f8f9fa;
 }
 
+.fys-headline-2 {
+  border: 5rem;
+  border-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f8f9fa;
+
+}
+
 .my-link {
     color: white;
 }
@@ -212,17 +221,6 @@ a:link {
   width: 50%;
 }
 
-media (min-width: 768px) {
-  .mobile {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .desktop {
-    display: none;
-  }
-
 /* Footer */
 
 .fluid-footer {
@@ -252,3 +250,15 @@ media (min-width: 768px) {
 .my-footer-nav {
   list-style-type: none;
 }
+
+
+media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
