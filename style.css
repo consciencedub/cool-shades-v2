@@ -53,17 +53,43 @@ html,body {
 
 /*find Your Style*/
 
+
+
 .fys-headline {
-  margin-bottom: .5rem;
+  margin-bottom: .3rem;
   background-color: #f8f9fa;
 }
 
-.card-styling {
-border: 10px;
-border-color: #ffffff;
+.card-row {
+  margin: none;
+}
+
+.card {
+
+}
+
+.my-card {
+  border-color: #ffffff;
+  border-width: 5px;
 padding-top: 50px;
 padding-bottom: 50px;
 background-color: #f8f9fa;
+}
+
+.my-card-2 {
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #f8f9fa;
+border-color: #ffffff;
+border-width: 5px;
+}
+
+.card-row-right {
+  margin-left: 50 !important;
+}
+
+.card-row-left {
+  margin-right: 0 !important;
 }
 
 .my-link {
@@ -243,7 +269,7 @@ a:link {
 .my-footer-position-2 {
   position: absolute;
   top: 30px;
-  right: 65px;
+  right: 62px;
 }
 
 .my-footer-nav {
