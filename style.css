@@ -64,10 +64,6 @@ html,body {
   margin: none;
 }
 
-.card {
-
-}
-
 .my-card {
   border-color: #ffffff;
   border-width: 5px;
@@ -251,6 +247,7 @@ a:link {
 .fluid-footer {
   background-color: #000000;
   padding-top: 100px;
+  padding-left: : 100px;
   margin-bottom: 100px;
 }
 
