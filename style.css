@@ -1,5 +1,6 @@
 .resp-nav {
     background: transparent;
+    opacity: .5;
 
 }
 .jumbotron {
@@ -7,15 +8,25 @@
 background-size: cover;
 }
 
+.peppers-links {
+color: white;
 
+}
 
+.flex-nav {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 0px 50px;
+  height: 150px;
+}
 
 .features {
   font-weight: 100;
   font-size: 20px:
 }
 
-.btn-primary { background-color: red; }
+.btn-primary { background-color: purple; }
 
 .btn-primary:hover { background-color: #8B0000; }
 
@@ -49,37 +60,46 @@ html,body {
 
 .relative {
   position: relative;
-  z-index: 6;
 }
 
 .my-header-position-1 {
   position: absolute;
-  left: 1.5rem;
-  top: 2rem;
-}
 
-.my-header-position-2 {
-  position: absolute;
-  top: 3.7rem;
-  left: 215px;
 }
 
 .my-header-position-3 {
   position: absolute;
-  left: -15px;
+
+}
+
+.my-header-position-2 {
+  font-size: 14px;
+  position: absolute;
+  top: 60px;
+  left: 254px;
+
+}
+
+a {
+  color: white;
 }
 
 a:link {
+  color: #FFFFFF;
   padding-right: 20px;
 }
 
-a:active {
-  color: black;
+a:hover {
+  color: dark blue;
 }
 
 .absolute {
 position: absolute;
-top: 2rem;
+top: 36rem;
+}
+
+.navbar-brand {
+  margin-left: 65px;
 }
 
 
@@ -236,18 +256,41 @@ a:link {
   color: white;
 }
 
+/*Features*/
 
-.my-features {
-  background-image: url('design-assets/features-background.jpg');
-  background-repeat: round;
-  background-size: cover;
+.features-headline {
+  font-style: oblique;
+  font-weight: bold;
+  background-color: #F8F9FA;
+  height: 100px;
+  padding-left: 150px;
   padding-top: 25px;
-  padding-bottom: 50px;
-  height: 900px;
+  vertical-align: center;
+}
+.my-features {
+  /*background-image: url('design-assets/features-background.jpg');*/
+  padding: 50px 50px 50px 50px;
+  width: 100%;
+}
+
+.big-sunglasses {
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width:100%;
+  height:auto;
 }
 
 .features-list {
-  margin-bottom: .25em;
+  font-size: 2rem;
+  padding: 5rem 0rem 30rem 8rem;
+  position: absolute;
+  z-index: 6;
+}
+
+.big-glasses-div {
+  position: relative;
+  background-color: #F8F9FA;
+
 }
 
 .my-list-group {
@@ -257,14 +300,10 @@ a:link {
 }
 
 .my-hr {
-    border-top: 4px solid white;
+  background-color: white;
+  height: 10px;
     margin-top: 25px;
     margin-bottom: 50px;
-  }
-
-.audio-sunglasses {
-    margin-top: 50px;
-    margin-bottom: 200px;
   }
 
   .center {
