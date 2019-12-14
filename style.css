@@ -178,22 +178,19 @@ border-width: 5px;
      text-decoration-color: white;
  }
 
- .absolute {
-   position: absolute;
-   bottom:10px;
-   left: 70px;
-}
 
-.absolute-2 {
+.absolute-1 {
   position: absolute;
   bottom:10px;
-  left: 100px;
+  left: 55px;
+
 }
 
-.relative {
-  position: relative;
-  padding: 0px;
+.social-icon {
+  padding-right: 10px;
 }
+
+
 
 .circle {
   border-radius: 100%;
@@ -355,3 +352,26 @@ media (min-width: 768px) {
   .desktop {
     display: none;
   }
+
+/*Instagram*/
+
+  .absolute {
+    position: absolute;
+    bottom:10px;
+    left: 70px;
+ }
+ 
+ .absolute-2 {
+   position: absolute;
+   bottom:10px;
+   left: 100px;
+ }
+
+/*Footer*/
+
+ .fluid-container {
+  background-color: #000000;
+  padding-top: 100px;
+  padding-left: : 100px;
+  margin-bottom: 100px;
+}
