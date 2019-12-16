@@ -1,9 +1,56 @@
+/*Features*/
+
+.feature-container {
+height: 100%;
+}
+
+.my-list-group {
+  background-color:transparent;
+  border: none;
+  padding: 1px;
+}
+
+.bg {
+  background-image: url("design-assets/features-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1300px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  background-position: bottom;
+  position: relative;
+}
+
+@media only screen and (max-width: 479px) {
+  .bg {
+    background:none;
+   }
+}
+
+.compatible {
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+}
+
+.features {
+  font-size: 20px;
+}
+
+.logos-compatibility {
+  height: 400px;
+}
+ 
 /*Instagram*/
 
 .absolute-1 {
   position: absolute;
-  bottom:10px;
-  left: 50px;
+  bottom:12px;
+  left: 67px;
+}
+.social-icon {
+  margin-right: 10px;
 }
 
 /*Footer*/
@@ -25,14 +72,12 @@ line-height: 10px;
   right:22px;
 }
 
-a{
+a:link {
   color:white;
   line-height: 10px;
+  text-decoration: none;
 }
 
-a:hover{
-  color #666666;
-}
 
 h6 {
   color: white;
