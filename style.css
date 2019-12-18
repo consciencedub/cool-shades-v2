@@ -1,3 +1,26 @@
+/*Hero*/
+
+.jumbotron {
+  color: white;
+  background-image: url("design-assets/hero.jpg");
+  background-size: cover;
+  padding-left: 3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.my-header-position-2 {
+  font-size: 14px;
+  position: absolute;
+  top: 40px;
+  left: 185px;
+
+}
+
+
+
 /*Features*/
 
 .feature-container {
