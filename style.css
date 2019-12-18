@@ -1,10 +1,12 @@
 /*Hero*/
 
 .hero {
-  color: white;
   background-image: url("design-assets/hero.jpg");
   background-size: cover;
-  padding-left: 3rem;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+  padding: 4rem 2 rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -15,17 +17,20 @@
   font-size: 14px;
   position: absolute;
   top: 40px;
-  left: 185px;
-
+  left: 160px;
 }
+
+/*Bone Conduction*/
+
+.jumbotron {
+  background-color: transparent;
+}
+
+
 
 
 
 /*Features*/
-
-.feature-container {
-height: 100%;
-}
 
 .my-list-group {
   background-color:transparent;
@@ -38,12 +43,11 @@ height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1300px;
-  margin-bottom: 15px;
-  padding-top: 20px;
+  height: 1200px;
   background-position: bottom;
-  position: relative;
 }
+
+
 
 @media only screen and (max-width: 479px) {
   .bg {
@@ -63,6 +67,8 @@ height: 100%;
 
 .logos-compatibility {
   height: 400px;
+  z-index: 1;
+
 }
  
 /*Instagram*/
