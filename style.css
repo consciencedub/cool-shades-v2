@@ -1,6 +1,6 @@
 /*Hero*/
 
-.jumbotron {
+.hero {
   color: white;
   background-image: url("design-assets/hero.jpg");
   background-size: cover;
